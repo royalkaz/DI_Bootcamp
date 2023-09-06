@@ -1,0 +1,23 @@
+.section{
+    border: 2px solid #FF0000;
+    height: 400px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    padding: 5px;
+    align-items: center;  
+  }
+  
+  .div1{
+    background-color:blue;
+    flex: 1;
+  }
+  .div2{
+      background-color:rgb(15, 239, 247);
+      flex: 2;
+    }
+    .div3{
+      background-color: #FF0000;
+      flex: 2;
+    }
+  

@@ -1,0 +1,103 @@
+
+.product-section {
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:20px;
+    display: inline-block;
+}
+.product-img {
+	width:auto;
+	height:270px;	
+}
+.product-img-center {
+	text-align:center;  
+}
+.product-border {
+	border:1px solid#d1d1d1;
+	padding:20px;
+    width:200px;
+    height:450px;
+    
+}
+.product-name a {
+	color: #232b33;
+	text-decoration: none;
+	font-size: 17px;
+	font-family:Roboto, sans-serif, arial;
+}
+.product-rating {
+	color: #FFC315;
+	font-size: 14px;
+	padding-top: 6px;	
+}
+.product-rating span {
+	font-weight:60px;
+	color: #3c3b3b8c;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif Roboto, sans-serif, arial;
+}
+.product-discounted-price {
+	color: #333;
+	font-size: 18px;
+	letter-spacing: 0.1px;
+	font-weight: 600px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.product-original-price {
+	color: #6f6f6f;
+	text-decoration: line-through;
+	font-size:14px;
+	font-family:Arial;
+}
+.product-discount {
+	border:1px solid#ccc;
+	background: #fff;
+	display:inline-flex;
+	font-size:10px;
+	color:black;
+	padding:2px;
+	background-color: red;	
+}
+.product-price {
+	margin-top:15px;
+}
+/* botton buy */
+.btnbuy { 
+	background: #FF4742; 
+	border: 1px solid #FF4742; 
+	border-radius: 6px; 
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px; 
+	box-sizing: border-box; 
+	color: #FFFFFF; 
+	cursor: pointer; 
+	display: inline-block; 
+	font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif; 
+	font-size: 16px; 
+	font-weight: 800; 
+	line-height: 16px; 
+	min-height: 40px; 
+	outline: 0; 
+	padding: 12px 14px; 
+	text-align: center; 
+	text-rendering: geometricprecision; 
+	text-transform: none; 
+	user-select: none; 
+	-webkit-user-select: none; 
+	touch-action: manipulation; 
+	vertical-align:middle;
+	display: inline-block;
+	margin-left:70px;
+	margin-top:20px;
+ } 
+	
+
+	.btnbuy:hover,
+	.btnbuy:active { 
+		background-color: initial; 
+		background-position: 0 0; 
+		color: #FF4742; } 
+		
+	.btnbuy:active { 
+			opacity: .5; }
+
+		
