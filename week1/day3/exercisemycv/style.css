@@ -1,0 +1,36 @@
+.section{
+    width:480px;
+    height:720px;
+    border: 1px solid black;
+    display: grid;
+    
+}
+.div1{
+    width: 480px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.CVphoto{
+    width: 100px;
+    height: 100px;
+    position:static;
+    border-radius: 100%;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+.div2{
+    text-align: left;
+    padding-left: 25px;
+    
+}
+h3{
+    font-size: medium;
+    font-style: italic;
+}
+h2{
+    font-size: larger;
+    font-style: italic;
+}
+

@@ -1,6 +1,42 @@
-
+body {
+    font-size: 10px;
+  }
 .container{
-    border: 2px solid red;
+    border: 2px solid black;
+    height: 400px;
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px 10px;
+    padding: 5px;
+    grid-template-rows:1fr 1fr 1fr 1fr;
 }
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7{
+  background-color: lightblue;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1,
+.div3,
+.div5{
+    background-color: brown;
+}
+.div7{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+

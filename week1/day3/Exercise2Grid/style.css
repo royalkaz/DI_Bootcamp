@@ -1,0 +1,58 @@
+#page {
+    display: grid;
+    grid-template-areas:
+    "head head head head head head head head  "
+    "hero hero hero main main main main main "
+    "hero hero hero main main main main main "
+    "hero hero hero main main main main main "
+    "sidebar sidebar main main main main main "
+    "sidebar sidebar main main main main main "
+    "sidebar sidebar content content content content content"
+    "sidebar sidebar content content content content content"
+    "sidebar sidebar content content content content content"
+    "relatimg relatimg relatimg relatimg relatimg relatpos relatpos relatpos"
+    "relatimg relatimg relatimg relatimg relatimg relatpos relatpos relatpos"
+    "footer footer footer footer footer footer footer footer";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+  #page > header {
+    background-color: #7b8ff1;
+    grid-area: head;
+  }
+  
+  #page > hero {
+    grid-area: hero;
+    background-color: #ffa08c;
+  }
+  
+  #page > main {
+    grid-area: main;
+    background-color: #ffff64;
+  }
+  #page > sidebar {
+    grid-area: sidebar;
+    background-color: #ffff64;
+  }
+  #page > extracontent{
+    grid-area: extracontent;
+    background-color: #ffa08c;
+  }
+  #page > relatedimg{
+    grid-area: relatedimg;
+    background-color: aqua;
+  }
+  #page > relatedpost{
+    grid-area: relatedpost;
+    background-color:bisque;
+  }
+  
+  #page > footer {
+    grid-column: 1 / 8;
+    background-color: #1ae969;
+    column-width: 50px;
+    height: 50px;
+    text-align: center;
+    grid-area: footer;
+  }
