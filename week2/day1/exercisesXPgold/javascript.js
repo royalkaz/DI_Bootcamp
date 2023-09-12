@@ -2,6 +2,7 @@
     let sentence = ["my","favorite","color","is","blue"];
     let makeSentence =`${sentence[0]} ${sentence[1]} ${sentence[2]} ${sentence[3]} ${sentence[4]}`
     console.log(makeSentence)
+    // ! join() metodu daha elverislidir
 // exercise xp gold lesson1
 
 // exercise xp gold lesson2
