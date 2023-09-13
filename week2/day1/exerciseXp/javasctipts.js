@@ -9,7 +9,7 @@
     let myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
     myWatchedSeries.Length //4
     console.log(myWatchedSeries)
-    let myWatchedSeriesSentence= `I watched ${myWatchedSeries[0]} 1 week ago.`
+    let myWatchedSeriesSentence= "I watched ${myWatchedSeries[0]} 1 week ago."
     console.log(myWatchedSeriesSentence)
     myWatchedSeries.splice(2,1,"friends")
     console.log(myWatchedSeries)
