@@ -17,7 +17,10 @@ console.log(newDog.toUpperCase());
 console.log(newDog.toLowerCase());
 //Check if the variable newDog is equal to “Chihuahua”
 if(newDog[0]){
-    alert("I love Chihuahuas, its my favorite dog breed");
+  // !!! newdog variable oldugu ucun indexe ehtiya yoxdur, indexi array e aiddir
+  // !!! newdog variable ni “Chihuahua” string ine beraber olub olmadigini yoxlamalisan
+  // !!! comparison operatorlarindan istifade et == ya da ===
+  alert('I love Chihuahuas, its my favorite dog breed');
 }
 else(console.log("I dont care, I prefer cats"));
 
@@ -40,6 +43,6 @@ const users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
 console.log("There are",users.length," users")
 //If there is no users (the users array is empty), console.log “no one is online”.
 
-
+// !!! exercise 4 u tamamla
 
 
