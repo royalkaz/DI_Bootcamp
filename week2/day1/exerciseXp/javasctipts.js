@@ -118,8 +118,9 @@
     // Actual:NaN
 
     99 * "hello"
-    // Prediction:notworking code
-    // Actual:
+    console.log(99 * "hello")
+    // Prediction:NaN
+    // Actual:NaN
 
     1 != 1
     // Prediction:notworking code
