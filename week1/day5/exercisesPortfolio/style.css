@@ -37,12 +37,6 @@
     margin-bottom: 150px;
 }
 
-/
-element.style {
-}
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-    cursor: pointer;
-}
 .carousel-caption {
     position: absolute;
     right: 15%;
