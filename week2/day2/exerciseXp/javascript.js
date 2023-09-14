@@ -2,25 +2,22 @@
 let x=10
 let z=9
 
-if (x>z) {
+if ( x > z ) {
     alert("x is the biggest number");
 }
 else if (x<z) {
     alert("x is the small number");
 }
 //Exercise 2: Chihuahua
-
-var newDog
-newDog="Chihuahua";
-console.log(newDog.length,"Check and display how many letters are in newDog.");
+let newDog = "Chihuahua";
+console.log(newDog.length,'Check and display how many letters are in newDog.');
 console.log(newDog.toUpperCase());
 console.log(newDog.toLowerCase());
 //Check if the variable newDog is equal to “Chihuahua”
-if(newDog[0]){
-  // !!! newdog variable oldugu ucun indexe ehtiya yoxdur, indexi array e aiddir
-  // !!! newdog variable ni “Chihuahua” string ine beraber olub olmadigini yoxlamalisan
-  // !!! comparison operatorlarindan istifade et == ya da ===
-  alert('I love Chihuahuas, its my favorite dog breed');
+
+// !!! if (newDog==="Chihuahua")
+if(newDog) {
+    alert("I love Chihuahuas, its my favorite dog breed");
 }
 else(console.log("I dont care, I prefer cats"));
 
@@ -38,11 +35,19 @@ else {
     console.log("The number is odd.");
 }
 //Exercise 4: Group Chat
-//Using the array above, console.log the number of users that are connected to the group chat based on the following rules:
+/* Using the array above, console.log the number of users that are connected to the 
+group chat based on the following rules: */
+/* const users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"]; */
 const users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
-console.log("There are",users.length," users")
-//If there is no users (the users array is empty), console.log “no one is online”.
-
-// !!! exercise 4 u tamamla
-
-
+     const numberOfUsers = users.length;
+         if (numberOfUsers === 0) {
+         console.log("No one is online");
+} 
+        else if (numberOfUsers === 1) {
+        console.log(`${users[0]} is online`);
+}       else if (numberOfUsers === 2) {
+        console.log(`${users[0]} and ${users[1]} are online`);
+}       else {
+              const additionalUsers = numberOfUsers - 2;
+              console.log(`${users[0]}, ${users[1]}, and ${additionalUsers} more are online`);
+}

@@ -1,8 +1,7 @@
 //Daily Challenge: JS Arrays & Methods lesson1
     const fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
     //Remove Banana from the array.
-    let fruit = fruits.slice(1,4)
-    // ! splice ve ya shift metodundan istifade et
+    let fruit = fruits.splice(1,4)
     console.log(fruit)
     //Sort the array in alphabetical order.
     fruit.sort()
