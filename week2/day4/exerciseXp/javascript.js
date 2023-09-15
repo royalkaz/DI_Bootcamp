@@ -15,21 +15,22 @@ infoAboutPerson("Hemid", 38, "black");
 
 //-------------------Exercise 2 : Tips--------------------------------//
 function calculateTip(){
+    
     const billAmount = prompt("hesab ne qederdir")
-    Number(billAmount);
-    let percentTip;
-    if(billAmount < 50){
+     const billAmountNum = Number(billAmount)
+        let percentTip;
+    if(billAmountNum < 50){
         percentTip = 0.2;
-    } else if(billAmount >= 50 && billAmount < 200){
+    } else if(billAmountNum >= 50 && billAmountNum < 200){
         percentTip = 0.15;
     } else {
         percentTip = 0.1;
     }
-    const amountTip = billAmount * percentTip
-    const finalAmount = Number(billAmount) + amountTip
+    const amountTip = billAmountNum * percentTip
+    const finalAmount = billAmountNum + amountTip
 
     console.log(` faiz meblegi: ${amountTip}`);
-    console.log(`yekun mebleg:${finalAmount}`)
+    console.log(`yekun mebleg:${finalAmount}`);
 }
 calculateTip()
 
