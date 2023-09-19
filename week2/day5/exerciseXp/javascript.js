@@ -11,7 +11,16 @@ function playTheGame(){
 
     // !!! while true yazmaq yerine condition yazmaq daha duzgundur, infinite loop ehtimalinin qarsini alir
     while (true){
-         
+        const userInput = prompt("0 dan 10  bir nomre daxil et ");
+        if (userInput === null || isNaN(userInput)){
+            alert("nomre daxil etmedin gule gule");
+            return;
+        }
+        userNumber = parseInt(userInput);
+        if (userNumber >= 0 && userNumber <= 10){
+            break;
+        }
+        else {
             alert("yazdigin reqem bu araliqda deyil. 0 dan 10 qeder olan bir nomre qeyd et. ")
         }
     }
@@ -36,6 +45,6 @@ function playTheGame(){
     if (attempts === 3) {
         alert("tessufler olsun tapa bilmedin duzgun nomre "+ computerNumber );
     }
-   
+   }
    
 
