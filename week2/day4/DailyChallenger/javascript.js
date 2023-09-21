@@ -5,9 +5,13 @@ const words = input.split(" ")
 
 let maxLength = 0;
 for(const word of words){
+    console.log(word)
     if(word.length > maxLength){
+        console.log(word)
         maxLength = word.length;
+        console.log(maxLength)
     }
+    console.log(word)
 }
 
 // sozleri ulduzlu duzbucaqda goster
