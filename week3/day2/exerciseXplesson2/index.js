@@ -28,3 +28,11 @@ if(firstNameValue !== '' && lastNameValue !== ''){
     
 }
 
+// !!! TAMAMLANMAYIB
+
+// * When the user submits the form (ie. submit event listener)
+// use event.preventDefault(), why ?
+// get the values of the input tags,
+// make sure that they are not empty,
+// create an li per input value,
+// then append them to a the <ul class="usersAnswer"></ul>, below the form. */

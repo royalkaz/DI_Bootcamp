@@ -10,6 +10,8 @@ console.log(allParagraph);
 let lastParagraph = allParagraph[3];
 lastParagraph.remove();
 
+// !!! last child elemnt den de istifade etmek olar
+
 //Add a event listener which will change the background color of the h2 to red, when it’s clicked on.
 
 let h2bckchange = document.querySelector("h2")
@@ -46,6 +48,8 @@ let h1SizeChange = document.querySelector("h1")
 h1SizeChange.addEventListener("click", function(){
     let randomNumber = Math.floor(Math.random() * 100)
     h1SizeChange.style.fontSize = randomNumber
+    
+    // !!! fonst size kimi propertyler istifade etdikde yanina px de yazmaq lazimdir
 })
 
 //BONUS : When you hover on the 2nd paragraph, it should fade out (Check out “fade css animation” on Google)
